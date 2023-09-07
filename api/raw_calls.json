@@ -1,0 +1,45 @@
+{
+    "calls": {
+        "AAC": {
+            "data_type": "image",
+            "doc_link": "https://http.dog/",
+            "initialized": true,
+            "method": "get",
+            "name": "HTTP status - Dog",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 0,
+            "should_reinitialize": true,
+            "url": "https://http.dog/[code].jpg",
+            "url_params": {
+                "AAD": {
+                    "doc": "Status code",
+                    "key": "code",
+                    "private": true,
+                    "value": "400"
+                }
+            }
+        },
+        "AAE": {
+            "data_type": "image",
+            "doc_link": "https://http.cat/",
+            "initialized": true,
+            "method": "get",
+            "name": "HTTP status - Cat",
+            "no_types": true,
+            "publish_as": "data",
+            "rank": 1,
+            "should_reinitialize": true,
+            "url": "https://http.cat/[status_code]",
+            "url_params": {
+                "AAF": {
+                    "doc": "Status code",
+                    "key": "status_code",
+                    "private": true,
+                    "value": "404"
+                }
+            }
+        }
+    },
+    "human": "Status Images"
+}
